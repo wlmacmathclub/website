@@ -1,0 +1,33 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "Mackenzie Math Club website",
+  "scripts": {
+    "build": "npx vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlmacmathclub/website.git"
+  },
+  "author": "ApocalypseCalculator",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wlmacmathclub/website/issues"
+  },
+  "homepage": "https://github.com/wlmacmathclub/website#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "vite-tsconfig-paths": "^3.6.0"
+  }
+}
